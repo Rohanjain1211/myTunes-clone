@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight:300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-color: #281154;
+    position:sticky;
+    top:0;
+    z-index: 100;
+    
+}
+
+.container{
+    padding:20px 10px 20px;
+    max-width:1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.mytunes{
+    font-weight: 700px;
+    font-size: 32px;
+}
+
+.home_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+    list-style-type:none;
+
+}
+
+a{  color: aliceblue;
+    text-decoration: none;
+}
+header{
+    background-color: #281154;
+}
+
+ul li:hover{
+    border-bottom:2px solid white;
+}
+/* hero section
+ */
+.hero_section{
+    background-image:url('hero_image.png') ;
+    height:100vh;
+    background-size:cover;
+    text-align: center;
+}
+
+.content{
+    color:white;
+   position:relative;
+   top:50%;
+   padding:10px 100px 10px;
+}
+
+.myheading{
+   padding:30px;
+   font-size: 96px;
+}
+.content p{
+    padding:20px;
+}
+/* music section */
+
+.music_section{
+    padding-top:150px;
+    background-color: #270082;
+}
+
+.music_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    color:white;
+}
+
+.music_h2{
+    font-size:36px;
+    
+}
+.music_h4{
+    text-align: center;
+    padding-right:100px;
+    padding-left: 100px;
+}
+.start_btn{
+    font-size: 25px;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color:white;
+    transition:0.5s ease-in-out ;
+}
+
+.start_btn:hover{
+    transform:scale(1.04);
+}
+
+.ipad_image{
+    margin-top:-400px;
+    position:relative;
+    top:400px;
+}
+
+.about_section{
+
+    margin-top:500px;
+    display: flex;
+    padding:10px 100px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:40px;
+}
+
+.read_btn{
+    padding:15px;
+    font-size: 15px;
+    background-color: blue;
+    border:none;
+    color:white;
+    transition:0.2s ease-in-out;
+}
+
+.read_btn:hover{
+    transform:scale(1.04);
+}
+
+/* video section */
+.video_section{
+    padding: 100px;
+    background-image:url('video.png');
+    background-size:cover;
+    min-height:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* gift card */
+
+.gift_card
+{  
+     padding:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:45px;
+}
+
+.card_redeem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.border_para{
+    border-bottom:black;
+}
+
+.redeem_btn{
+    padding: 10px;
+    align-self:flex-start;
+    font-size: 24px;
+    position: relative;
+    left: 100px;
+    border: none;
+    color: aliceblue;
+    background-color: green;
+    transition: 0.2s ease-in-out;
+}
+
+.redeem_btn:hover{
+    transform:scale(1.04);
+}
+/* Footer section */
+.footer_bg{
+    min-height:250px;
+    background-color: #270082;
+    
+}
+.footer_sec{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.footer_sec h4{
+    font-size:24px;
+    margin-bottom:15px;
+    color: aliceblue;
+    border-bottom:2px solid white;
+
+}
+
+li{
+    font-weight:400;
+    list-style-type: none;
+    color: beige;
+}
